@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Kullanici>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>Kullanıcılar</h2>
+
+@Html.ActionLink("Yeni Kullanıcı", "Add", "Kullanici")
+
+<table class="table">
+    <tr>
+        <th style="display:none">
+           Ad
+        </th>
+        <th>
+            Soyad
+        </th>
+        <th>
+           Email
+        </th>
+        <th>
+            Parola
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td style="display:none">
+               @item.Ad
+            </td>
+            <td>
+               @item.Soyad
+            </td>
+            <td>
+               @item.Email
+            </td>
+            <td>
+               @item.Password
+            </td>
+        </tr>
+    }
+
+</table>
+

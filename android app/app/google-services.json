@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "641279258563",
+    "firebase_url": "https://dene-fe577.firebaseio.com",
+    "project_id": "dene-fe577",
+    "storage_bucket": "dene-fe577.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641279258563:android:05d2e92f6d126d91",
+        "android_client_info": {
+          "package_name": "com.example.reklamapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641279258563-3pt4hkjp08s4sjpc4j39s6tjqa371ir6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reklamapp",
+            "certificate_hash": "3f76dc61fde4ecbea032e79929c85e582d37ee79"
+          }
+        },
+        {
+          "client_id": "641279258563-pfhhp2ufje3gorgjvo4p4r0ti3hh385f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2vBK9wdrwCXZzREVnMSqZt1_uPGu-DhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641279258563-pfhhp2ufje3gorgjvo4p4r0ti3hh385f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

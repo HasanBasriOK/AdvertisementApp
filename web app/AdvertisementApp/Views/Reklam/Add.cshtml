@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+}
+
+<h2>Reklam</h2>
+
+@using (Html.BeginForm("Add", "Reklam", FormMethod.Post))
+{
+
+    <div class="form-group">
+        <label>Firma Id</label>
+        <br />
+        <input type="text" class="form-control" name="FirmaId" placeholder="Firma Id" />
+    </div>
+    <div class="form-group">
+        <label>Firma Ad</label>
+        <br />
+        <input type="text" class="form-control" name="FirmaAdi" placeholder="Firma Adı" />
+    </div>
+    <div class="form-group">
+        <label>Firma Lokasyon Enlem</label>
+        <br />
+        <input type="text" class="form-control" name="FirmaLokasyonEnlem" placeholder="Firma Lokasyon Enlem" />
+    </div>
+    <div class="form-group">
+        <label>Firma Lokasyon Boylam</label>
+        <br />
+        <input type="text" class="form-control" name="FirmaLokasyonBoylam" placeholder="Firma Lokasyon Boylam" />
+    </div>
+    <div class="form-group">
+        <label>Kampanya Süresi(Gün)</label>
+        <br />
+        <input type="number" class="form-control" name="KampanyaSuresi" placeholder="Kampanya Süresi" />
+    </div>
+    <div class="form-group">
+        <label>Kampanya İçerik</label>
+        <br />
+        <input type="text" class="form-control" name="KampanyaIcerik" placeholder="Kampanya İçerik" />
+    </div>
+    <div class="form-group">
+        <label>Kampanya Kategori</label>
+        <br />
+        <select name="Kategori" class="form-control">
+            <option>Yemek</option>
+            <option>Kıyafet</option>
+            <option>Elektronik</option>
+            <option>Yapı</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Kaydet" class="btn btn-success" />
+    </div>
+
+
+}

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Reklam>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>Reklamlar</h2>
+
+@Html.ActionLink("Yeni Reklam","Add","Reklam")
+
+<table class="table">
+    <tr>
+        <th>
+            Firma Adı
+        </th>
+        <th>
+            Firma Lokasyon Enlem
+        </th>
+        <th>
+            Firma Lokasyon Boylam
+        </th>
+        <th>
+            Kampanya İçerik
+        </th>
+        <th>
+            Kampanya Süresi(Gün)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.FirmaAdi
+            </td>
+            <td>
+                @item.FirmaLokasyonEnlem
+            </td>
+            <td>
+                @item.FirmaLokasyonBoylam
+            </td>
+            <td>
+                @item.KampanyaIcerik
+            </td>
+            <td>
+                @item.KampanyaSuresi
+            </td>
+        </tr>
+    }
+</table>
+
+
+
